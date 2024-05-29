@@ -9,8 +9,20 @@ The dataset consists of images of road surfaces with various types of defects, c
   * Cracks
     
 ### Dataset Division:
-Training Set: Used for training the model.
-Validation Set: Used for tuning the model parameters.
-Test Set: Used for evaluating the final model performance.
+  * Training Set: Used for training the model.
+  * Validation Set: Used for tuning the model parameters.
+  * Test Set: Used for evaluating the final model performance.
 
 ### Methodology
+
+* Classification:
+
+  * Architecture: ResNet50
+  * Approach: A transfer learning approach was used with ResNet50 to classify images of road defects.
+  * Accuracy: Achieved high classification accuracy for distinguishing between potholes and cracks.
+
+* Detection:
+
+  * Architecture: YOLOv8 (You Only Look Once)
+  * Approach: YOLOv8 was implemented for real-time detection of potholes and cracks in various environments.
+  * Performance: The model demonstrates efficient and precise detection capabilities.
